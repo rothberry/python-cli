@@ -18,11 +18,9 @@ class API:
             return base + str_params
         return base
 
-
     def get_request(self, query_params={}):
         resp = requests.get(self.full_base_url(query_params))
         # pp(self.full_base_url(query_params))
         better_resp = resp.json()
         pp(better_resp)
         return better_resp
-
