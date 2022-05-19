@@ -1,4 +1,6 @@
 requests
+python-decouple
+pp-ez
 # urllib3
 # httplib2
 # httpx
