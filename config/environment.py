@@ -6,7 +6,10 @@ import pp
 
 cwd = os.getcwd()
 sys.path.append(cwd + "/config")
-sys.path.append(cwd + "/lib/models")
-sys.path.append(cwd + "/lib/services")
+sys.path.append(cwd + "/lib")
 
-from api import *
+# import services
+# from services import *
+from services.api import *
+# from services.cli import *
+# from models.asteroid import *

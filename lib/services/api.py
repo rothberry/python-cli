@@ -1,5 +1,4 @@
-import pp
-import requests
+from environment import *
 
 class API:
     def __init__(self, base_url, routes, api_key=""):
