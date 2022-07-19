@@ -1,8 +1,9 @@
+# * Start out by bringing in the file locating pkgs
 import os
 import sys
-import requests
-from decouple import config
-import pp
+
+# * Env only needs to bring in user made files
+# os.system('cls||clear')
 
 cwd = os.getcwd()
 sys.path.append(cwd + "/config")
